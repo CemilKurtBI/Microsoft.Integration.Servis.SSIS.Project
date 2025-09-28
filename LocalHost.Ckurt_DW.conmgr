@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.Ckurt_DW"
+  DTS:DTSID="{4D8CC186-445B-4790-8961-C4DAD28F1B9E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Ckurt_DW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-CKURT_ETL-{4D8CC186-445B-4790-8961-C4DAD28F1B9E}LocalHost.Ckurt_DW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
